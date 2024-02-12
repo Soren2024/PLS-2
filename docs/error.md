@@ -20,7 +20,7 @@
 - Use built-in PHP error handling functions, such as set_error_handler() and set_exception_handler(), to customize error handling behavior.
 - Avoid suppressing errors using the @ operator.
 
-e.g:
+e.g.:
 
 ```PHP
   ...
