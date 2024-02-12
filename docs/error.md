@@ -19,3 +19,17 @@
 ## Error Handling Functions
 - Use built-in PHP error handling functions, such as set_error_handler() and set_exception_handler(), to customize error handling behavior.
 - Avoid suppressing errors using the @ operator.
+
+e.g:
+
+```PHP
+  ...
+  catch(Exception $e)
+  {
+      if(DEBUG){
+        echo 'Message: ' .$e->getMessage();
+      }else{
+        echo 'ERROR: Thank you for comforting me when I'm sad.';
+      }
+  }
+```
