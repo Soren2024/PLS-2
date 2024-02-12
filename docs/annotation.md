@@ -23,7 +23,7 @@ You need to write it in the following format:
 
 For information on how to fill in "type", please go to [phpDoc](https://www.phpdoc.org/docs/latest/index.html).
 
-# Block Comments
+## Block Comments
 
 Block Comments are typically used when large amounts of newline text need to be written, such as complex business descriptions and complex internal implementations.
 
